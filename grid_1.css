@@ -13,12 +13,17 @@ body {
 
 .beginner {
   height: 90vh;
-  width: 90%;
+  width: 80%;
   margin: 20px auto;
 
   display: grid;
   grid-template-rows: auto 1fr auto;
   gap: 20px;
+}
+
+.beginner img {
+  width: 100%;
+  display: block;
 }
 
 .box-1 {
